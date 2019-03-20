@@ -1,46 +1,22 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 00
 
-### Author: Student/Group Name
+### Chris Merritt
 
 ### Links and Resources
 * [repo](https://github.com/401-advanced-javascript-merritt/lab-00)
-* [travis]()
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [travis](https://www.travis-ci.com/401-advanced-javascript-merritt/lab-00.svg?branch=labupload)
+* [front-end](https://lab-00-merritt.herokuapp.com/) Heroku
 
-#### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
   
 #### Tests
 * How do you run tests?
+npm run test
 * What assertions were made?
+Does the server live?
 * What assertions need to be / should be made?
+Dies with a parameter.
 
-#### UML
-Link to an image of the UML for your application and response to events
+
